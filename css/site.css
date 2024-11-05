@@ -2,11 +2,24 @@ body {
   background: #ffffff;
 }
 
+.select2-container .select2-dropdown {
+    background-color: #E8EDF2; /* Replace with your desired color */
+}
+
+/* Change background color of options in the dropdown */
+.select2-container .select2-results__options {
+    background-color: #E8EDF2; /* Replace with your desired color */
+}
+
+/* Optional: Change background color of the selected item area */
+.select2-container .select2-selection {
+    background-color: #E0F2FF; /* Replace with your desired color */
+}
 #modedemploi {
-  background: #E8EDF2;
+  background: #ffffff;
   margin-left: 1em;
   margin-bottom: 1em;
-  display: flex;
+  display: inline;
   min-width: 50%;
 
 }
