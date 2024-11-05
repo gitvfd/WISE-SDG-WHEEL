@@ -3,7 +3,7 @@ body {
 }
 
 .select2-container .select2-dropdown {
-    fill: #E8EDF2; /* Replace with your desired color */
+    background-color: #E8EDF2; /* Replace with your desired color */
   width:100%;
 }
 
