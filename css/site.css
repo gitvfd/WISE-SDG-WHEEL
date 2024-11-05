@@ -7,7 +7,7 @@ body {
   
 }
 .my-custom-class {
-    background-color: #E8EDF2; /* Replace with your desired color */
+    background-color: #E8EDF2; /* Replace with your desired color */width:100%;
   
 }
 /* Change background color of options in the dropdown */
