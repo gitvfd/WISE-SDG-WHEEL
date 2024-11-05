@@ -53,7 +53,7 @@
     <script type="text/javascript">
 
 	$(document).ready(function () {
-		$('#country_dropdown').select2({ width: '250px' });
+		$('#country_dropdown').select2({ width: '100%'});
     });
 
     var chartList=[];
@@ -81,7 +81,6 @@
     }
 
     function updateChart(ISO){
-console.log(chartList)
 chartList.forEach(function(d){
     if(d.ISO==ISO){
     	//document.getElementById("weeklyTrackerchart_new").src  = d.url2;
