@@ -3,7 +3,7 @@ body {
 }
 
 #modedemploi {
-  background: #FFFFFF;
+  background: #E8EDF2;
   margin-left: 1em;
   margin-bottom: 1em;
   display: flex;
@@ -19,7 +19,7 @@ body {
   font-style: normal;
   font-size: 1.3rem;
   font-weight: 700;
-  color: #ffffff;
+  color: #000000;
 }
 
 #selCountry {
@@ -44,7 +44,7 @@ body {
   font-weight: 300;
   font-style: normal;
   font-size: 1.25rem;
-  color: #E8EDF2;
+  color: #000000;
   text-align: center;
   letter-spacing: normal;
   vertical-align: baseline;
@@ -63,7 +63,7 @@ body {
   font-family: 'Noto Sans', sans-serif;
   font-weight: 100;
   font-size: 1.2rem;
-  color: #ffffff;
+  color: #000000;
   text-align: start;
   padding: 7px 25px 7px 0px;
 }
