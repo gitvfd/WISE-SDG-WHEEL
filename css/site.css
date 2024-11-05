@@ -6,7 +6,10 @@ body {
     background-color: #E8EDF2; /* Replace with your desired color */
   
 }
-
+.my-custom-class {
+    background-color: #E8EDF2; /* Replace with your desired color */
+  
+}
 /* Change background color of options in the dropdown */
 .select2-container .select2-results__options {
     background-color: #E8EDF2; /* Replace with your desired color */
