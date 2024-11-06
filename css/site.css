@@ -7,7 +7,8 @@ body {
   
 }
 .my-custom-class {
-    background-color: #E8EDF2; /* Replace with your desired color */width:100%;
+    background-color: #E8EDF2; /* Replace with your desired color */
+  width:100%;
   
 }
 /* Change background color of options in the dropdown */
@@ -84,7 +85,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  max-width: 750px;
+  max-width: 650px;
 }
 
 @media only screen and (max-width: 600px) {
