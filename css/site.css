@@ -67,7 +67,7 @@ body {
   border-radius:3px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  min-height:33px;
+  min-height:48px;
 }
 
 .dropdown_text {
