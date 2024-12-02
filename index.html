@@ -55,6 +55,7 @@
     </body>
     <script type="text/javascript">
 
+    const countryLink = document.getElementById('countryLink');
 	$(document).ready(function () {
 		$('#country_dropdown').select2({ containerCssClass: 'my-custom-class'})
     });
@@ -88,6 +89,9 @@ chartList.forEach(function(d){
     if(d.ISO==ISO){
     	//document.getElementById("weeklyTrackerchart_new").src  = d.url2;
     	document.getElementById("sdgwheel").src  = d.url;
+
+        countryLink.href = "https://www.oecd.org/en/data/dashboards/The-OECD-Hub-on-Measuring-Distance-to-SDG-Targets/distance-to-achieving-sdgs.html?oecdcontrol-a499c1a199-var1="+ISO;
+        countryLink.textContent = "Learn more about "+ ISO;
     }
 })
     }
