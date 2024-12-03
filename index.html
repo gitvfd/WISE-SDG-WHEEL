@@ -48,7 +48,7 @@
             <img id="sdgwheel" src="pic/OECD_wheel_EN.png" class="chartPic" id="wheel_img">
 		</img>
 
-	            <div class="overlay" id="wheel_popup>
+	            <div class="overlay" id="wheel_popup">
                 	<a id="countryLink" href="#" target="_blank">Learn more</a>
             		</div>
        		 </div>
@@ -92,9 +92,10 @@
         if(d.ISO==ISO){
         	//document.getElementById("weeklyTrackerchart_new").src  = d.url2;
         	document.getElementById("sdgwheel").src  = d.url;
-
-           document.getElementById("countryLink").href = "https://www.oecd.org/en/data/dashboards/The-OECD-Hub-on-Measuring-Distance-to-SDG-Targets/distance-to-achieving-sdgs.html?oecdcontrol-a499c1a199-var1="+ISO;
-         document.getElementById("countryLink").textContent = "Learn more about "+ d.Country;
+           	
+		document.getElementById("countryLink").href = "https://www.oecd.org/en/data/dashboards/The-OECD-Hub-on-Measuring-Distance-to-SDG-Targets/distance-to-achieving-sdgs.html?oecdcontrol-a499c1a199-var1="+ISO;
+         	
+		document.getElementById("countryLink").textContent = "Learn more about "+ d.Country;
     }
 })
     }
