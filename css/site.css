@@ -12,7 +12,7 @@ body {
   
 }
 /* Change background color of options in the dropdown */
-.select2-container .select2-results__options {
+.select2-container .select2-results__options .select2-selection__rendered {
     background-color: #f0f4f8; /* Replace with your desired color */
 }
 
