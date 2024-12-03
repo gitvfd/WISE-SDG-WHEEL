@@ -54,44 +54,6 @@
 
     <script type="text/javascript">
 
-/*document.addEventListener("DOMContentLoaded", function () {
-    const countryLink = document.getElementById("countryLink");
-    const countryDropdown = document.getElementById("country_dropdown");
-    const sdgWheel = document.getElementById("sdgwheel");
-    let chartList = [];
-
-    $('#country_dropdown').select2({
-        dropdownCssClass: 'my-custom-class'
-    });
-
-    d3.queue()
-        .defer(d3.tsv, "charts.tsv")
-        .await(function (err, data) {
-            if (err) {
-                console.error("Error loading charts data:", err);
-                return;
-            }
-
-            data.forEach(d => {
-                let option = document.createElement("option");
-                option.value = d.ISO;
-                option.textContent = d.Country;
-                countryDropdown.appendChild(option);
-                chartList.push(d);
-            });
-        });
-
-    countryDropdown.addEventListener("change", function () {
-        const selectedISO = this.value;
-        const chart = chartList.find(d => d.ISO === selectedISO);
-
-        if (chart) {
-            sdgWheel.src = chart.url;
-            countryLink.href = `https://www.oecd.org/en/data/dashboards/The-OECD-Hub-on-Measuring-Distance-to-SDG-Targets/distance-to-achieving-sdgs.html?oecdcontrol-a499c1a199-var1=${selectedISO}`;
-            countryLink.textContent = `Learn more about ${selectedISO}`;
-        }
-    });
-});*/
 
 
 
@@ -132,8 +94,8 @@
         	//document.getElementById("weeklyTrackerchart_new").src  = d.url2;
         	document.getElementById("sdgwheel").src  = d.url;
 
-        //    document.getElementById("countryLink").href = "https://www.oecd.org/en/data/dashboards/The-OECD-Hub-on-Measuring-Distance-to-SDG-Targets/distance-to-achieving-sdgs.html?oecdcontrol-a499c1a199-var1="+ISO;
-          //  document.getElementById("countryLink").textContent = "Learn more about "+ d.Country;
+           document.getElementById("countryLink").href = "https://www.oecd.org/en/data/dashboards/The-OECD-Hub-on-Measuring-Distance-to-SDG-Targets/distance-to-achieving-sdgs.html?oecdcontrol-a499c1a199-var1="+ISO;
+         document.getElementById("countryLink").textContent = "Learn more about "+ d.Country;
     }
 })
     }
