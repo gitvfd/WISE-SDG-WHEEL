@@ -3,22 +3,22 @@ body {
 }
 
 .select2-container .select2-dropdown {
-    background-color: #E8EDF2; /* Replace with your desired color */
+    background-color: #f0f4f8; /* Replace with your desired color */
   
 }
 .my-custom-class {
-    background-color: #E8EDF2; /* Replace with your desired color */
+    background-color: #f0f4f8; /* Replace with your desired color */
   width:100%;
   
 }
 /* Change background color of options in the dropdown */
 .select2-container .select2-results__options {
-    background-color: #E8EDF2; /* Replace with your desired color */
+    background-color: #f0f4f8; /* Replace with your desired color */
 }
 
 /* Optional: Change background color of the selected item area */
 .select2-container .select2-selection {
-    background-color: #E0F2FF; /* Replace with your desired color */
+    background-color: #e0f2ff; /* Replace with your desired color */
 }
 
 #modedemploi {
@@ -52,7 +52,7 @@ body {
   margin: 1px 0 1px 0;
   padding: 0.5rem;
   width: 100%;
-  background-color: #E8EDF2;
+  /*background-color: #E8EDF2;*/
   font-family: "Noto Sans Display", sans-serif;
   font-weight: 300;
   font-style: normal;
