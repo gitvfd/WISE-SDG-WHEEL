@@ -91,28 +91,7 @@ body {
   max-width: 650px;
 }
 
-.overlay {
-position: fixed; /* Ensures the overlay stays in place relative to the screen */
-    bottom: 0;       /* Anchors the overlay to the bottom of the screen */
-    left: 0;
-    width: 100%;     /* Spans the full width of the screen */
-    height: 50%;     /* Covers the bottom half of the screen */
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
-    color: white;
-    display: flex;
-    justify-content: center; /* Centers content horizontally */
-    align-items: center;     /* Centers content vertically */
-    font-size: 1.2em;        /* Adjusts font size */
-    z-index: 9999;           /* Ensures the overlay appears on top of other elements */
-    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3); /* Adds a slight shadow for depth */
-}
-    .container:hover .overlay {
-      opacity: 1;
-    }
-    .overlay a {
-      color: white;
-      text-decoration: underline;
-    }
+
 @media only screen and (max-width: 600px) {
   table {
     min-width: 500px;
