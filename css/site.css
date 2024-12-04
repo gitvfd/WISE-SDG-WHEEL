@@ -22,17 +22,20 @@ body {
     background-color: #e0f2ff; /* Replace with your desired color */
 }
 
-#select2-country_dropdown-container{
-    background-color: #C3C6CF;
+.selection{
+  
   height:48px;
   border-radius:2px;
   border-width: 0px;
-  
   font-family: "Noto Sans Display", sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 18px;
   font-color: #101D40;
+}
+#select2-country_dropdown-container{
+    background-color: #E8EDF2;
+  
   
 }
 
