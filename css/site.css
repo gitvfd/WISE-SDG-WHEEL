@@ -86,6 +86,14 @@ body {
 #wheel_app {
 /*position: relative;*/
 }
+.overlay{
+  
+  font-family: "Noto Sans Display", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.3rem;
+  color: #586179;
+}
 
 /**#wheel_img,
 #wheel_popup {
