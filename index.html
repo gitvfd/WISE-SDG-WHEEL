@@ -45,7 +45,7 @@
                 </div>
         	</div>
 		<div id="wheel_app">
-            <img id="sdgwheel" src="pic/OECD_wheel_EN.png" class="chartPic" id="wheel_img">
+            <a  id="wheelLink"  href="https://www.oecd.org/en/data/dashboards/The-OECD-Hub-on-Measuring-Distance-to-SDG-Targets/distance-to-achieving-sdgs.html?oecdcontrol-a499c1a199-var1=OECD" ><img id="sdgwheel" src="pic/OECD_wheel_EN.png" class="chartPic" id="wheel_img"></a>
 		</img>
 
 	            <div class="overlay" id="wheel_popup">
@@ -95,7 +95,7 @@
            	
 		document.getElementById("countryLink").href = "https://www.oecd.org/en/data/dashboards/The-OECD-Hub-on-Measuring-Distance-to-SDG-Targets/distance-to-achieving-sdgs.html?oecdcontrol-a499c1a199-var1="+ISO;
          	
-		document.getElementById("sdgwheel").href = "https://www.oecd.org/en/data/dashboards/The-OECD-Hub-on-Measuring-Distance-to-SDG-Targets/distance-to-achieving-sdgs.html?oecdcontrol-a499c1a199-var1="+ISO;
+		document.getElementById("wheelLink").href = "https://www.oecd.org/en/data/dashboards/The-OECD-Hub-on-Measuring-Distance-to-SDG-Targets/distance-to-achieving-sdgs.html?oecdcontrol-a499c1a199-var1="+ISO;
          	
 		document.getElementById("countryLink").textContent = "See the detailled "+ d.Country + " data";
     }
