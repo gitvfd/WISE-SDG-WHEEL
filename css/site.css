@@ -5,26 +5,23 @@ body {
 
 .select2-container .select2-dropdown {
     background-color: #f0f4f8; /* Replace with your desired color */
-  
 }
 
 .select2-container--default .select2-selection--single .select2-selection__rendered {
     line-height: 48px;
-  
-  border-radius:2px;
-  border-width: 0px;
+    border-radius:2px;
+    border-width: 0px;
 }
 .my-custom-class {
     background-color: #f0f4f8; /* Replace with your desired color */
-  width:100%;
-  
-  font-family: "Noto Sans Display", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 18px;
-  font-color: #101D40;
-  
+    width:100%;
+    font-family: "Noto Sans Display", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    font-color: #101D40;
 }
+
 /* Change background color of options in the dropdown */
 .select2-container .select2-results__options .select2-selection__rendered {
     background-color: #f0f4f8; /* Replace with your desired color */
@@ -37,8 +34,6 @@ body {
 
 #select2-country_dropdown-container{
     background-color: #E8EDF2;
-  
-  
 }
 
 #modedemploi {
@@ -46,7 +41,6 @@ body {
   margin-left: 1em;
   margin-bottom: 1em;
   min-width: 50%;
-
 }
 
 #intromodedemploi {
