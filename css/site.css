@@ -44,7 +44,9 @@ body {
   padding: 7px 25px 7px 0;
 }
 
-
+.select2-container {
+width: 100% !important;
+}
 .select2-container .select2-dropdown {
     background-color: #f0f4f8; /* Replace with your desired color */
 }
