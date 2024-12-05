@@ -47,6 +47,17 @@
                 </div>
         	</div><Br/>
 
+		<div id="wheel_app">
+            <a  id="wheelLink"  href="https://www.oecd.org/en/data/dashboards/The-OECD-Hub-on-Measuring-Distance-to-SDG-Targets/distance-to-achieving-sdgs.html?oecdcontrol-a499c1a199-var1=OECD"  target="_parent" ><img id="sdgwheel" src="pic/OECD_wheel_EN.png" class="chartPic" id="wheel_img"></a>
+		</img>
+
+	            <div class="overlay" id="wheel_popup">
+                	<a id="countryLink" href="https://www.oecd.org/en/data/dashboards/The-OECD-Hub-on-Measuring-Distance-to-SDG-Targets/distance-to-achieving-sdgs.html?oecdcontrol-a499c1a199-var1=OECD" target="_parent" >See the detailled OECD data </a>
+            		</div>
+       		 </div>
+        </div>
+    </body>
+
 
     <script type="text/javascript">
 
@@ -54,6 +65,10 @@
 	$(document).ready(function () {
 		$('#country_dropdown').select2({ containerCssClass : 'my-custom-class'})
     });
+
+	    $(document).ready(function() { 
+        $("#country_dropdown").select2({ width: 'resolve' });           
+});
     var chartList=[];
     var urls = {
         charts: "charts.tsv"
@@ -91,13 +106,3 @@
 })
     }
     </script>
-		<div id="wheel_app">
-            <a  id="wheelLink"  href="https://www.oecd.org/en/data/dashboards/The-OECD-Hub-on-Measuring-Distance-to-SDG-Targets/distance-to-achieving-sdgs.html?oecdcontrol-a499c1a199-var1=OECD"  target="_parent" ><img id="sdgwheel" src="pic/OECD_wheel_EN.png" class="chartPic" id="wheel_img"></a>
-		</img>
-
-	            <div class="overlay" id="wheel_popup">
-                	<a id="countryLink" href="https://www.oecd.org/en/data/dashboards/The-OECD-Hub-on-Measuring-Distance-to-SDG-Targets/distance-to-achieving-sdgs.html?oecdcontrol-a499c1a199-var1=OECD" target="_parent" >See the detailled OECD data </a>
-            		</div>
-       		 </div>
-        </div>
-    </body>
