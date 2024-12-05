@@ -4,6 +4,7 @@ body {
 
 
 #selCountry {
+  position:absolute;
   padding: 0.5rem;
   margin-bottom: 2px;
   margin-left: 25px;
